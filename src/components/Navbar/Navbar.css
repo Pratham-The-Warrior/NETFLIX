@@ -79,3 +79,45 @@
   border-radius: 10px;
   display: block;
 }
+
+.nav-dark {
+  background-color: #141414;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    padding: 10px 4%;
+  }
+
+  .navbar-left ul li:not(:first-child) {
+    display: none;
+  }
+}
+@media (max-width: 480px) {
+  .navbar-left img {
+    width: 70px;
+  }
+
+  .navbar-right .icons {
+    width: 16px;
+  }
+
+  .navbar-right .profile {
+    width: 28px;
+  }
+}
+@media (max-width: 400px) {
+  .navbar-left img {
+    width: 60px;
+  }
+}
+@media (max-width: 350px) {
+  .navbar-left img {
+    width: 50px;
+  }
+}
+@media (max-width: 320px) {
+  .navbar-left img {
+    width: 40px;
+  }
+}
